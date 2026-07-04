@@ -67,7 +67,7 @@ pred=model.predict(scaled_data,verbose=0)
 st.write(f'churn probability={pred[0][0]: .2f}')
 
 if pred[0][0]>0.5:
-    st.write('the person is not likey to leave')
+    st.write('the person is likey to leave')
 else:
-    st.write('the person is likey leave')
+    st.write('the person is not likey leave')
 
