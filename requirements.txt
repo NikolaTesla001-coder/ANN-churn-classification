@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==2.19.1
 pandas
 scikit-learn
 tensorboard
